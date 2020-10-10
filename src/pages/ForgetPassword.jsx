@@ -7,7 +7,6 @@ import {
   Typography,
 } from "@material-ui/core";
 import MuiInput from "../components/MuiInput";
-import ForgetImage from "../images/forgot_password.png";
 import axios from "axios";
 import { toast } from "react-toastify";
 
@@ -132,7 +131,7 @@ const ForgetPassword = () => {
           }}
         >
           <img
-            src={ForgetImage}
+            src="https://res.cloudinary.com/dnja3kt1q/image/upload/v1602294480/logo/forgot_password_xwmmbk.png"
             alt="forgetsvg"
             className="thumbImage"
           />

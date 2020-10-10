@@ -7,7 +7,6 @@ import {
   VisibilityOff,
 } from "@material-ui/icons";
 import { connect } from "react-redux";
-import LoginImage from "../images/login.png";
 import { setUserLogin } from "../redux/actions/authActions";
 import {
   Button,
@@ -192,7 +191,7 @@ const Signin = ({
           }}
         >
           <img
-            src={LoginImage}
+            src="https://res.cloudinary.com/dnja3kt1q/image/upload/v1602294502/logo/login_inx93e.png"
             alt="loginsvg"
             className="thumbImage"
           />

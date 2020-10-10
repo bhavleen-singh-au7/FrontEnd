@@ -9,7 +9,6 @@ import {
   makeStyles,
   Paper,
 } from "@material-ui/core";
-import AccountImage from "../images/Account_Activation.png";
 import { toast } from "react-toastify";
 import Axios from "axios";
 import jwt from "jsonwebtoken";
@@ -109,7 +108,7 @@ const AccountActivation = ({ match, history }) => {
           }}
         >
           <img
-            src={AccountImage}
+            src="https://res.cloudinary.com/dnja3kt1q/image/upload/v1602294463/logo/Account_Activation_rehypz.png"
             alt="acountsvg"
             className="thumbImage"
           />

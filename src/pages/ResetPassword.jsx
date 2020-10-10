@@ -12,7 +12,6 @@ import {
   Paper,
   Typography,
 } from "@material-ui/core";
-import SecureImage from "../images/secure.png";
 import jwt from "jsonwebtoken";
 import axios from "axios";
 import { toast } from "react-toastify";
@@ -201,7 +200,7 @@ const ResetPassword = ({ match }) => {
           }}
         >
           <img
-            src={SecureImage}
+            src="https://res.cloudinary.com/dnja3kt1q/image/upload/v1602294511/logo/secure_qdvh09.png"
             alt="securesvg"
             className="thumbImage"
           />

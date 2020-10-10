@@ -12,7 +12,6 @@ import { Link, Redirect } from "react-router-dom";
 import { toast } from "react-toastify";
 import Axios from "axios";
 import { isAuth } from "../utils/helper";
-import SignupImage from "../images/signup.png";
 import {
   Visibility,
   VisibilityOff,
@@ -243,7 +242,7 @@ const Signup = ({ history }) => {
           }}
         >
           <img
-            src={SignupImage}
+            src="https://res.cloudinary.com/dnja3kt1q/image/upload/v1602294508/logo/signup_ooxhp0.png"
             alt="signupsvg"
             className="thumbImage"
           />
